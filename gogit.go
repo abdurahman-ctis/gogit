@@ -158,7 +158,7 @@ func main() {
 		fmt.Println("Please supply the command")
 		return
 	}
-	pwd, _ := filepath.Abs("./a")
+	pwd, _ := filepath.Abs(".")
 	switch os.Args[1] {
 	case "init":
 		gitInit(pwd) // TODO: support additional directories
